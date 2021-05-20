@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* nav */
 
 nav{
@@ -13,7 +17,7 @@ nav{
 /* jumbotron */
 
 #jumbotron{
-    width: 100%;
+
 }
 
 #jumbotron>div{
@@ -23,6 +27,18 @@ nav{
 .banner{
     height: 100%;
 }
+
+.promo{
+    height: 80px;
+    background-color: crimson;
+}
+
+/* section ps5 */
+
+.img_box{
+
+}
+
 /* debug */
 
 .debug .box{
@@ -33,4 +49,14 @@ nav{
 .debug #jumbotron{
     background-color: brown;
     height: 600px;
+}
+
+.debug .img_box{
+    height: 500px;
+    background-color: cyan;
+}
+
+.debug .img_boxy{
+    height: 150px;
+    background-color: darkcyan;
 }
