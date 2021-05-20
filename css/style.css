@@ -8,6 +8,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+._white{
+    color: white;
+}
+
+.h_cover{
+    height: 100%;
+}
 /* nav */
 
 nav{
@@ -109,4 +116,9 @@ nav{
 
 .debug #psplus{
     background-color: #bebcbb;
+}
+
+.debug #playstation-now{
+    background-color: #161c3b;
+    height: 500px;
 }
