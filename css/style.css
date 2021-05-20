@@ -25,6 +25,11 @@ nav{
     height: 70px;
 }
 
+#logo{
+    height: 50px;
+    width: 50px;
+}
+
 /* jumbotron */
 
 #jumbotron{
