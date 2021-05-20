@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* nav */
+
+nav{
+    height: 70px;
+}
+
+/* jumbotron */
+
+#jumbotron{
+    width: 100%;
+}
+
+#jumbotron>div{
+    height: 90%;
+}
+
+.banner{
+    height: 100%;
+}
+/* debug */
+
+.debug .box{
+    background-color: black;
+    height: 30px;
+}
+
+.debug #jumbotron{
+    background-color: brown;
+    height: 600px;
+}
