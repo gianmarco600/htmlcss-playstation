@@ -39,6 +39,16 @@ nav{
 
 }
 
+/* section promo-game */
+
+#promo-game{
+
+}
+
+#promo-game>div{
+    height: 90%;
+}
+
 /* debug */
 
 .debug .box{
@@ -59,4 +69,9 @@ nav{
 .debug .img_boxy{
     height: 150px;
     background-color: darkcyan;
+}
+
+.debug #promo-game{
+    background-color: darkgoldenrod;
+    height: 700px;
 }
