@@ -63,6 +63,19 @@ nav{
     width: 100%;
 }
 
+/* section psplus */
+
+#psplus{
+    height: 500px;
+}
+
+#psplus .psp_banner{
+    height: 100%;
+}
+
+/* section sconti */
+
+
 /* debug */
 
 .debug header .box{
@@ -92,4 +105,8 @@ nav{
 
 .debug #nuove-uscite{
     background-color: #1f1f1f;
+}
+
+.debug #psplus{
+    background-color: #bebcbb;
 }
