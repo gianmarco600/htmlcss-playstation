@@ -49,9 +49,23 @@ nav{
     height: 90%;
 }
 
+/* section nuove-uscite */
+
+#nuove-uscite{
+    color: white;
+}
+
+#nuove-uscite .box{
+    width: 100%;
+}
+
+#nuove-uscite .box img{
+    width: 100%;
+}
+
 /* debug */
 
-.debug .box{
+.debug header .box{
     background-color: black;
     height: 30px;
 }
@@ -74,4 +88,8 @@ nav{
 .debug #promo-game{
     background-color: darkgoldenrod;
     height: 700px;
+}
+
+.debug #nuove-uscite{
+    background-color: #1f1f1f;
 }
