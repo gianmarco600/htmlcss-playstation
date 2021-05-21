@@ -35,7 +35,37 @@ h2{
 ._crimsom_bg:hover{
     border: 1px solid black;background-color: #cd3d0f;
 }
+
+._btn_ps{
+    border-radius: 20px;
+    background-color: #cd3d0f;
+    color: white;
+}
+
+._btm_ps_2{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.459);
+    color: #2d64e6;
+}
+
+._grey_text{
+    font-size: 1.4rem;
+    color: #747474;
+    line-height: 1.2em;
+}
+
+._margin_a{
+    margin: 0 auto;
+}
 /* nav */
+
+._drop_wide{
+    width: 99vw;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left:0;
+}
 
 nav{
     height: 70px;
@@ -78,14 +108,16 @@ nav{
 
 /* section ps5 */
 
-.img_box{
-
+._selected{
+    border-bottom: 1px solid #0072ce;
 }
 
 /* section promo-game */
 
 #promo-game{
-
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    height: 900px;
 }
 
 #promo-game>div{
@@ -110,6 +142,11 @@ nav{
 
 #psplus{
     height: 500px;
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-color: #bebcbb;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #psplus .psp_banner{
@@ -118,6 +155,16 @@ nav{
 
 /* section sconti */
 
+/* psnow */
+#playstation-now{
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #161c3b;
+    height: 500px;
+
+}
 
 /* footer */
 
@@ -127,8 +174,32 @@ footer{
     padding-top: 100px;
 }
 
+#foot_logo{
+    width: 100px;
+    filter: brightness(5);
+    
+}
+
 #sie-logo{
     height: 50px;
+}
+
+footer li{
+    line-height: 2rem;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    color: #cd3d0f;
+}
+
+#_lang{
+    width: 25px;
 }
 /* debug */
 
@@ -154,7 +225,6 @@ footer{
 
 .debug #promo-game{
     background-color: darkgoldenrod;
-    height: 700px;
 }
 
 .debug #nuove-uscite{
@@ -166,6 +236,5 @@ footer{
 }
 
 .debug #playstation-now{
-    background-color: #161c3b;
-    height: 500px;
+    
 }
