@@ -60,7 +60,7 @@ h2{
 /* nav */
 
 ._dropdown{
-    background-color:#ececec ;
+    background-color:#f8f9fa ;
     padding: 5px;
 }
 
@@ -159,11 +159,7 @@ nav{
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width:1046px) {
-    #psplus{
-        background-image: none;
-    }
-}
+
 
 #psplus .psp_banner{
     height: 100%;
@@ -182,6 +178,13 @@ nav{
 
 }
 
+
+@media screen and (max-width:1046px) {
+    #psplus , #playstation-now{
+        background-image: none;
+    }
+
+}
 /* footer */
 
 footer{
