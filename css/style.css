@@ -59,6 +59,13 @@ h2{
 }
 /* nav */
 
+#_sony{
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    top: 10px
+}
+
 ._drop_wide{
     width: 99vw;
     margin: 0 auto;
