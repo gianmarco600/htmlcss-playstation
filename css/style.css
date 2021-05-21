@@ -20,6 +20,15 @@ a{
     text-decoration: none;
 }
 
+strong{
+    color: black;
+    filter: opacity(100%);
+}
+
+strong:hover{
+    color: #0070d1;
+}
+
 ._white{
     color: white;
 }
@@ -80,6 +89,30 @@ a{
     font-size: 1rem;
 }
 /* nav */
+nav .dropdown-menu a{
+    font-weight: 700;
+    color: black;
+}
+/* overiding bootstrap's nav prop */
+
+.dropdown{
+    position: static;
+}
+
+/* fine overide */
+
+._nav_item{
+    display: inline-block;
+}
+
+._nav_item:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+._ico{
+    height: 100px;
+    margin: 0 auto;
+}
 
 ._dropdown{
     background-color:#f8f9fa ;
@@ -95,8 +128,7 @@ a{
 
 ._drop_wide{
     width: 99vw;
-    margin: 0 auto;
-    position: fixed;
+    margin: 0 0 0 0;
     left:0;
 }
 
@@ -133,6 +165,7 @@ nav{
 
 .promo:hover{
     transform: scale(1.1); 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     /* border: 4px solid gray; */
 
 }
